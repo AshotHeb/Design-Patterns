@@ -25,7 +25,9 @@ class CarFactory {
   }
 }
 
-const audi = new CarFactory("Audi", 2020);
-console.log(audi);
-const bmw = new CarFactory("BMW", 2020);
-console.log(bmw);
+//Usage
+
+// const audi = new CarFactory("Audi", 2020);
+// console.log(audi);
+// const bmw = new CarFactory("BMW", 2020);
+// console.log(bmw);

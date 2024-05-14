@@ -17,11 +17,13 @@ class ConsoleAdapter {
   }
 }
 
-const oldConsole = new OldConsole();
-oldConsole.log("Adapter Old");
+//Usage
 
-const newConsole = new ConsoleAdapter();
-newConsole.log("Adapter New");
+// const oldConsole = new OldConsole();
+// oldConsole.log("Adapter Old");
 
-const consoleAdapter = new ConsoleAdapter();
-consoleAdapter.log("Adapter");
+// const newConsole = new ConsoleAdapter();
+// newConsole.log("Adapter New");
+
+// const consoleAdapter = new ConsoleAdapter();
+// consoleAdapter.log("Adapter");
