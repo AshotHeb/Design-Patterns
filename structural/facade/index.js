@@ -26,6 +26,7 @@ class VideoConverter {
     const file = new VideoFile(filename);
 
     //Some logic here ...
+    // Facade use all these OggCompressionCodec, MPEG4CompressionCodec, CodecFactory, BitrateReader, AudioMixer classes inside
 
     return file;
   }

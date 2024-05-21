@@ -8,9 +8,9 @@ class Text {
   }
 }
 
-class BoldTextDecorator {
+class BoldTextDecorator extends Text {
   constructor(value) {
-    this.value = value;
+    super(value);
   }
 
   get() {
@@ -18,9 +18,9 @@ class BoldTextDecorator {
   }
 }
 
-class ItalicTextDesorator {
+class ItalicTextDesorator extends Text {
   constructor(value) {
-    this.value = value;
+    super(value);
   }
 
   get() {
