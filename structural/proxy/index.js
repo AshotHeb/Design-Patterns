@@ -27,6 +27,6 @@ class ProxyImage {
 }
 
 const proxyImage = new ProxyImage("photo1.jpg");
-proxyImage.display();
-proxyImage.display();
-proxyImage.display();
+// proxyImage.display();
+// proxyImage.display();
+// proxyImage.display();
