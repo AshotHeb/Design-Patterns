@@ -55,7 +55,7 @@ const mouseHandler = new MouseHandler();
 dogHandler.setNext(catHandler).setNext(mouseHandler);
 
 // Output: Cat: Meow
-dogHandler.handle("Cat");
+// dogHandler.handle("Cat");
 
 // Output: End of chain (without any result )
-dogHandler.handle("Ankap text"); // Output: Cat: Meow
+// dogHandler.handle("Ankap text"); // Output: Cat: Meow
