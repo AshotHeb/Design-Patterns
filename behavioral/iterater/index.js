@@ -73,7 +73,7 @@ collection.addItem("C");
 
 const iterator = collection.getIterator();
 
-while (iterator.valid()) {
-  console.log(iterator.current());
-  iterator.next();
-}
+// while (iterator.valid()) {
+//   console.log(iterator.current());
+//   iterator.next();
+// }
