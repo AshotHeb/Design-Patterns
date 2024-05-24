@@ -27,5 +27,5 @@ class CopyCommand {
 const saveButton = new Button("Save");
 const copyButton = new Button("Copy");
 
-saveButton.click(new SaveCommand());
-copyButton.click(new CopyCommand());
+// saveButton.click(new SaveCommand());
+// copyButton.click(new CopyCommand());
