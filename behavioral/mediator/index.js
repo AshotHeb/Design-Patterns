@@ -41,5 +41,5 @@ const server = new Server();
 server.addSocket(socket1);
 server.addSocket(socket2);
 
-socket1.send("Hello", socket2);
-socket2.send("Hello", socket1);
+// socket1.send("Hello", socket2);
+// socket2.send("Hello", socket1);
