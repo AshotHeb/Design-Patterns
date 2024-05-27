@@ -36,9 +36,9 @@ const state = new State(1);
 state.increment();
 state.handleContext(component);
 
-console.log(component.getState().count); // 2
+// console.log(component.getState().count); // 2
 
 state.increment();
 state.handleContext(component);
 
-console.log(component.getState().count); // 3
+// console.log(component.getState().count); // 3
